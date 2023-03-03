@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            background-image: url('./image/bg2.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+        label {
+            float: left; 
+        }
+    </style>
+
+</head>
+
+<body>
+    <form action="" method="">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+        <br>
+        <label for="surname">Surname</label>
+        <input type="text" name="surname" id="surname">
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="pass">Password</label>
+        <input type="password" name="pass" id="pass" placeholder="enter password">
+        <br>
+        <label for="file">Add file</label>
+        <input type="file" name="file" id="file">
+        <br>
+        <label for="optional">Things you want to add (optional)</label>
+        <br>
+        <textarea name="optional" id="optional" cols="30" rows="7"></textarea>
+        <br>
+        <label for="select">How did you hear about our site?</label>
+        <br>
+        <input type="radio" name="select" id="tw" value="tw">Twitter
+        <input type="radio" name="select" id="fc" value="fc">Facebook
+        <input type="radio" name="select" id="insta" value="insta">Instagram
+        <input type="radio" name="select" id="ln" value="ln">Linkedin
+        <input type="radio" name="select" id="other" value="other">Other
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    <a href="index.html" style="float: left;color: plum; bottom:0px;position:fixed;">return home</a>
+</body>
+
+</html>

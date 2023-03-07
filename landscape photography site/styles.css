@@ -29,3 +29,14 @@ table {
     margin-top:5%;
     margin-left:40%;
 }
+a {
+    color:darkorchid;
+}
+h2 {
+    text-align: center;
+}
+.column {
+    padding: 0 8px;
+    float: left;
+    width: 33.33%;
+}

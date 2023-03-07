@@ -29,8 +29,11 @@ table {
     margin-top:5%;
     margin-left:40%;
 }
-a {
+.darkorchid {
     color:darkorchid;
+}
+.plum {
+    color:plum;
 }
 h2 {
     text-align: center;
@@ -39,4 +42,7 @@ h2 {
     padding: 0 8px;
     float: left;
     width: 33.33%;
+}
+.center {
+    text-align: center;
 }

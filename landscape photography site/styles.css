@@ -46,3 +46,20 @@ h2 {
 .center {
     text-align: center;
 }
+.footer {
+    width: 100%;
+    bottom:10px;
+    background-color: azure;
+}
+.ul {
+    width: 40%;
+    background-color: white;
+}
+.out {
+    width: 100%;
+    background-color:thistle;
+    border-radius: 3%;
+    display: flex;            
+    justify-content: center;            
+    align-items: center;
+}

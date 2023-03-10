@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     background-image: url('./image/bg2.jpg');
     background-repeat: no-repeat;
@@ -58,7 +61,7 @@ h2 {
     align-items: center;
 }
 .out {
-    width: 100%;
+    width: 100vw;
     height: 130px;
     background-color:thistle;
     border-radius: 3%;
@@ -72,11 +75,13 @@ h2 {
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
     color: white;
     position: absolute;
-    top: 58%;
-    left: 50%;
+    top: 58vh;
+    left: 50vw;
     transform: translate(-50%, -50%);
-    width: 75%;
-    padding: 20px;
+    width: 75vw;
+    padding: 3vh;
     text-align: center;
 }
-
+p {
+    font-size: 1em;
+}

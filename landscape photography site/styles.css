@@ -42,6 +42,7 @@ h2 {
     padding: 0 8px;
     float: left;
     width: 33.33%;
+    background-color:aliceblue;
 }
 .center {
     text-align: center;
@@ -52,14 +53,30 @@ h2 {
     background-color: azure;
 }
 .ul {
-    width: 40%;
-    background-color: white;
-}
-.out {
-    width: 100%;
-    background-color:thistle;
-    border-radius: 3%;
-    display: flex;            
+    width: 40%;          
     justify-content: center;            
     align-items: center;
 }
+.out {
+    width: 100%;
+    height: 130px;
+    background-color:thistle;
+    border-radius: 3%;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blurtext {
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    padding: 20px;
+    text-align: center;
+}
+

@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    word-spacing: 1.5px;
 }
 body {
     background-image: url('./image/bg2.jpg');
@@ -49,6 +50,7 @@ h2 {
 }
 .center {
     text-align: center;
+    letter-spacing: 10px;
 }
 .footer {
     width: 100%;

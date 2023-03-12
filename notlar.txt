@@ -1,0 +1,2 @@
+font import etmek için link etiketi ve @import url kullanılabilir
+text-decoration: overline,line-through ex.

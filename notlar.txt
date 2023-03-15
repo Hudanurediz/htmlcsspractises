@@ -1,2 +1,6 @@
 font import etmek için link etiketi ve @import url kullanılabilir
 text-decoration: overline,line-through ex.
+padding-top :üstten bosluk
+padding-buttom :alttan bosluk
+padding-left/right :sağ sol bosluk
+kısayolu=> padding: 10px 20px: üst alt 10, sağ sol 20 px//tek tek olur

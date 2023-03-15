@@ -12,6 +12,8 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-color:darkgray;
+    border-style: solid;
 }
 #lbl {
     text-align-last: center;
@@ -83,6 +85,13 @@ h2 {
     width: 75vw;
     padding: 3vh;
     text-align: center;
+}
+.brds{
+    border-radius: 5%;
+}
+.loc {
+    float: left;
+    bottom:0px;
 }
 p {
     font-size: 1em;

@@ -88,7 +88,7 @@ p {
     font-size: 1em;
 }
 ul li {
-    list-style-type:none;
+    /*list-style-type:none;*/
     color:darkorchid;  
     text-transform: lowercase;  
 }

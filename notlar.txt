@@ -4,3 +4,5 @@ padding-top :üstten bosluk
 padding-buttom :alttan bosluk
 padding-left/right :sağ sol bosluk
 kısayolu=> padding: 10px 20px: üst alt 10, sağ sol 20 px//tek tek olur
+background-repeat:round; cover all
+background-position:0 0; baslangıc 0 0 noktasi

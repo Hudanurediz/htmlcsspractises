@@ -58,6 +58,7 @@ h2 {
     height: 130px;
     background-color:thistle;
     border-radius: 3%;
+    opacity: 0.7;
     filter: blur(10px);
     -webkit-filter: blur(10px);
     background-position: center;
@@ -65,8 +66,9 @@ h2 {
     background-size: cover;
 }
 .blurtext {
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    background-color: rgba(0,0,0, 0.2); /* Black w/opacity/see-through */
     color: white;
+    border-radius: 30%;
     position: absolute;
     top: 58vh;
     left: 50vw;

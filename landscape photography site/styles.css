@@ -52,19 +52,42 @@ ul li a {
     padding: 0 8px;
     float: left;
     width: 33.33%;
-    background-color:aliceblue;
+    background: none;
 }
+.imgposition{
+    width: 500px;
+    height: 600px;
+    border: 8px darkorchid solid;
+}
+/*footer::after {
+    content:"";
+    border: 5px solid darkgray;
+    width: 200px;
+    height: 150px;
+    box-sizing: border-box;
+    left: 30vw;
+    top: -200px;
+}
+footer::before {
+    content:"";
+    border: 5px solid darkgray;
+    width: 200px;
+    height: 150px;
+    position:relative;
+    box-sizing: border-box;
+    left: 33vw;
+    top: -150px;
+}*/
 .center {
     text-align: center;
     letter-spacing: 10px;
 }
 .footer {
     width: 100%;
-    bottom:10px;
     background-color: azure;
     cursor:copy;/*fare durumlari*/
+    position:static;
 }
-
 .out {
     width: 100vw;
     height: 130px;
@@ -95,6 +118,7 @@ ul li a {
 .loc {
     float: left;
     bottom:0px;
+    position:fixed;
 }
 .bg1{
     background: url("./image/selale.jpeg");

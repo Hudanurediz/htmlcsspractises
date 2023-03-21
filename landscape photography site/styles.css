@@ -59,25 +59,28 @@ ul li a {
     height: 600px;
     border: 8px darkorchid solid;
 }
-/*footer::after {
-    content:"";
+form::after {
+    content:url("./image/bg.jpg");
     border: 5px solid darkgray;
     width: 200px;
-    height: 150px;
+    height: 200px;
     box-sizing: border-box;
-    left: 30vw;
-    top: -200px;
+    position: absolute;
+    left: 27vw;
+    bottom:35%;
+    z-index: -1;
 }
-footer::before {
-    content:"";
+form::before {
+    content:url("./image/blue.jpg");
     border: 5px solid darkgray;
     width: 200px;
-    height: 150px;
-    position:relative;
+    height: 200px;
+    position:absolute;
     box-sizing: border-box;
-    left: 33vw;
-    top: -150px;
-}*/
+    left: 24vw;
+    bottom:38%;
+    z-index:-2;
+}
 .center {
     text-align: center;
     letter-spacing: 10px;
@@ -86,7 +89,8 @@ footer::before {
     width: 100%;
     background-color: azure;
     cursor:copy;/*fare durumlari*/
-    position:static;
+    margin-bottom: 1%;
+
 }
 .out {
     width: 100vw;
@@ -118,7 +122,6 @@ footer::before {
 .loc {
     float: left;
     bottom:0px;
-    position:fixed;
 }
 .bg1{
     background: url("./image/selale.jpeg");

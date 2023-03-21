@@ -69,9 +69,11 @@ form::after {
     left: 27vw;
     bottom:35%;
     z-index: -1;
+    transition: all 0.25s steps();
 }
 form::before {
-    content:url("./image/blue.jpg");
+    content:"";
+    background:darkorchid;
     border: 5px solid darkgray;
     width: 200px;
     height: 200px;
@@ -80,6 +82,12 @@ form::before {
     left: 24vw;
     bottom:38%;
     z-index:-2;
+    transition: all 0.25s linear;
+}
+form:hover::after,
+form:hover::before {
+    top:40%;
+    left: 10%;
 }
 .center {
     text-align: center;
